@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SocialAndroidApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/black_15</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.SocialAndroidApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.SocialAndroidApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.SocialAndroidApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an
+        animated drawable. One of these is required. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_screen</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.SocialAndroidApp</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

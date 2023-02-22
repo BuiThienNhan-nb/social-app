@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance.App.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextAppearance.App.HeadingBlack" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="TextInputLayout.DefaultTextField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/box_background_color</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxStrokeColor">@color/blue</item>
+        <item name="helperTextTextAppearance">@style/TextAppearance.Material3.BodySmall</item>
+        <item name="helperTextTextColor">@color/black_60</item>
+        <item name="android:textColorHint">@color/black_38</item>
+        <item name="hintTextColor">@color/black_38</item>
+        <item name="startIconTint">@color/black_65</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="TextAppearance.App.Form.Text" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/black_65</item>
+    </style>
+
+    <style name="MaterialButton.App.Primary" parent="Widget.Material3.Button">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+</resources>
